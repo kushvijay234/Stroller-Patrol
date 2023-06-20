@@ -5,6 +5,9 @@
 
 /* Mobile */
 @media (max-width: 480px) { 
+    .header {
+        height: 10dvh;
+    }
     .header .container-fluid {
         justify-content: center!important;
     }

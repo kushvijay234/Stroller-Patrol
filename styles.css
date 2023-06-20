@@ -120,3 +120,25 @@ p.testimonial-name {
 .FAQ .card {
     margin: 0px 0px 20px 0px;
 }
+
+.footer {
+    padding: 50px 50px 50px 50px;
+}
+
+.footer .social-icon {
+    display: flex;
+    justify-content: end;
+}
+
+.row.footer-logo {
+    border-bottom: 2px solid #80808061;
+    padding: 20px 0px;
+}
+
+.footer .footer-copyright {
+    padding: 20px 0px;
+}
+
+.footer .social-icon a {
+    padding: 0px 10px;
+}

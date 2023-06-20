@@ -20,5 +20,9 @@
     .footer .social-icon {
         justify-content: flex-start;
     }
+    
+    p.testimonial-message {
+        font-size: 30px;
+    }
 
 }

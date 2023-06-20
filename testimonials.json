@@ -1,25 +1,25 @@
 [
     {
       "message": "... I absolutely love Stroller Patrol! With just a tap, I get to have an extra pair of eyes and the knowledge that my kids are safe even when I'm not around……",
-      "image": "../assets/mom-of-3.jpg",
+      "image": "assets/mom-of-3.jpg",
       "name": "Susan from 68th &amp; 3rd ave, NYC.",
       "designation": "Mom of three boys ages&nbsp; 2, 4, 8"
     },
     {
       "message": "... I work full time and It’s reassuring to know that other parents now have a way to get hold of me.…",
-      "image": "../assets/mom-of-2.jpg",
+      "image": "assets/mom-of-2.jpg",
       "name": "Vanessa from 72nd &amp; York Ave, NYC",
       "designation": "CaregiverMom of 2"
     },
     {
         "message": "... So far Stroller Patrol has been helpful in keeping my employer informed about our location, which she appreciates.…",
-        "image": "../assets/nanny-2.jpg",
+        "image": "assets/nanny-2.jpg",
         "name": "Joclyn",
         "designation": "Nanny for 12 years (NYC)"
     },
     {
       "message": "... I was in between jobs for a while but when I discovered Stroller Patrol, I immediately knew that it would be helpful to parents and had suggested it during my interview. The very next day I had a job.…",
-      "image": "../assets/nanny.jpg",
+      "image": "assets/nanny.jpg",
       "name": "Sonya",
       "designation": "Nanny for 8 years (NYC)"
     }

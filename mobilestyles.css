@@ -5,14 +5,17 @@
 
 /* Mobile */
 @media (max-width: 480px) { 
-    .header {
-        height: 10dvh;
-    }
+    
     .header .container-fluid {
         justify-content: center!important;
     }
     h2 {
         font-size: 30px!important;
+    }
+
+    .hero {
+        background-image: url(assets/Connect-2.png);
+        height: 55dvh;
     }
     
     

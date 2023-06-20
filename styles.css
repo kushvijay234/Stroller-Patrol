@@ -5,11 +5,12 @@
     font-family: 'Outfit',sans-serif !important;
 }
 .hero{
-    background-image: url(assets/hero.jpg);
+    background-image: url(assets/Connect-2.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
-    padding: 100px 0px;
+    height: 80dvh;
+    width: 100%;
 }
 
 section {
@@ -21,7 +22,7 @@ section {
     /* color: var(--primary-color); */
   }
   .header {
-    height:15dvh;
+    height:12dvh;
     position: fixed;
     top: 0;
     left: 0;

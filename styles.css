@@ -4,6 +4,13 @@
     padding: 0px;
     font-family: 'Outfit',sans-serif !important;
 }
+.hero{
+    background-image: url(assets/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0px;
+}
 
 section {
     padding: 50px 0px;
@@ -13,7 +20,18 @@ section {
     --primary-color: #ff9432; 
     /* color: var(--primary-color); */
   }
-
+  .header {
+    height:15dvh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  .header-scroll {
+    background-color: #f8f8f8; /* Change to the desired background color on scroll */
+  }
+  
   button.btn.me-2 {
     background-color: var(--primary-color);
     color: white;
@@ -25,9 +43,7 @@ button.btn.me-2  a {
     text-decoration: none;
     color: white;
 }
-.header {
-    background-color: white;
-}
+
 
 /*  About Stroller Patrol App  */
 h2 {

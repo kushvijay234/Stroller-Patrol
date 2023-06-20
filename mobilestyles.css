@@ -1,0 +1,24 @@
+/*
+    Media queres
+    Responsive File
+*/
+
+/* Mobile */
+@media (max-width: 480px) { 
+    .header {
+        box-shadow: 0px 3px 0px grey;
+    }
+    
+    button.btn.me-2 {
+        display: none;
+    }
+
+    .footer {
+        padding: 50px 0px;
+    }
+
+    .footer .social-icon {
+        justify-content: flex-start;
+    }
+
+}

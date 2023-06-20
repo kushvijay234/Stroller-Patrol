@@ -86,3 +86,16 @@ h2 {
 .testimonial {
     padding: 50px 0px;
 }
+
+ol.carousel-indicators {
+    display: none;
+}
+p.testimonial-message {
+    font-size: 44px;
+}
+
+p.testimonial-name {
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 0px;
+}

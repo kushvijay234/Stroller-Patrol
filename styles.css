@@ -1,0 +1,88 @@
+/* GLobal  */
+*  {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Outfit',sans-serif !important;
+}
+
+section {
+    padding: 50px 0px;
+}
+
+:root {
+    --primary-color: #ff9432; 
+    /* color: var(--primary-color); */
+  }
+
+  button.btn.me-2 {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 8px 11px;
+}
+.header {
+    background-color: white;
+}
+
+/*  About Stroller Patrol App  */
+h2 {
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 42px!important;
+    line-height: 47px!important;
+}
+
+.row {
+    align-items: center;
+}
+
+.aboutpatrol p {
+    font-weight: 400;
+    color: #475569;
+    font-size: 28px!important;
+    line-height: 36px!important;
+}
+
+.about {
+    background-color: #fdcd70;
+    padding: 50px 0px;
+}
+
+.appworks h2 {
+    padding: 50px 0px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.appworks .step {
+    margin-bottom: 0px;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.appworks h3 {
+    font-weight: 700;
+}
+
+.useyapp {
+    background-color: #fdcd70;
+    padding: 50px 0px;
+}
+
+.useyapp h2 { 
+    padding: 50px 0px;
+    font-weight: 700;
+}
+
+.useyapp .icon {
+    margin: 20px 0px;
+}
+
+.useyapp h3 {
+    font-weight: 700;
+}
+
+.testimonial {
+    padding: 50px 0px;
+}

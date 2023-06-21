@@ -45,6 +45,17 @@ button.btn.me-2  a {
     color: white;
 }
 
+.dwnbtnrw {
+    display: flex;
+    justify-content: center;
+}
+
+div#downloadbtn {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
 
 /*  About Stroller Patrol App  */
 h2 {

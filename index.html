@@ -82,10 +82,10 @@
   </div>
 
 <!-- For Parents -->
-<div class="container">
-  <h2>For Parents</h2>
-  <section>
-    <div class="row">
+<div class="container parents">
+  <h2  style="padding-top: 50px; padding-left: 15px; font-weight: 700;">For Parents</h2>
+  <section class="secparents">
+    <div class="row secrowparents">
       <div class="col-md-3">
         <div class="card">
           <img src="assets/Messages1.png" class="card-img-top" alt="Image 1">
@@ -122,14 +122,128 @@
   </section>
 </div>
 
-<!-- For Cargivers -->
 
+<div class="slideshow-container">
 
+  <div class="mySlides fade">
+    <img src="assets/Messages1.png" style="width:100%">
+    <div class="text">Minute to minute updates on your child’s whereabouts and transportation</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <img src="assets/Create Post2.png" style="width:100%">
+    <div class="text">Real-time announcements about potential safety threats.</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <img src="assets/Caregiversstatus3.png" style="width:100%">
+    <div class="text">Private messaging to ask questions and get more information about an incident.</div>
+  </div>
 
+  <div class="mySlides fade">
+    <img src="assets/Parenthome4.png" style="width:100%">
+    <div class="text">Discover new events and activities in your neighborhood.</div>
+  </div>
+  
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span>
+    <span class="dot"></span>  
+  </div>
+  
+<!-- FAQ -->
+  <div class="FAQ">
+    <div class="container">
+      <h2>Frequently Asked Questions</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div id="accordion">
+            <!-- FAQ Items (Left Column) -->
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Question 1
+                  </button>
+                </h5>
+              </div>
+    
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                  Answer 1
+                </div>
+              </div>
+            </div>
+    
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                    Question 3
+                  </button>
+                </h5>
+              </div>
+    
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                  Answer 3
+                </div>
+              </div>
+            </div>
+    
+          </div>
+        </div>
+        
+        <div class="col-md-6">
+          <div id="accordion">
+            <!-- FAQ Items (Right Column) -->
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                    Question 2
+                  </button>
+                </h5>
+              </div>
+    
+              <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                  Answer 2
+                </div>
+              </div>
+            </div>
+    
+            <div class="card">
+              <div class="card-header" id="headingFour">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                    Question 4
+                  </button>
+                </h5>
+              </div>
+    
+              <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                <div class="card-body">
+                  Answer 4
+                </div>
+              </div>
+            </div>
+    
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
 
 
  <!-- Testimonial -->
+ 
 <div class="container testimonial ">
+  <h2 style="padding-top: 50px; padding-left: 15px; font-weight: 700;"> Testimonial</h2>
     <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <!-- Navigation Dots (Generated dynamically from JSON) -->
@@ -226,13 +340,26 @@
   </script>
 
 <script>
-  $(document).ready(function() {
-    $('.carousel2').carousel({
-      interval: 3000, // Set the desired interval for auto slide transition (in milliseconds)
-      pause: false // Disable pausing on hover
-    });
-  });
-</script>
+  let slideIndex = 0;
+  showSlides();
+  
+  function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active1", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active1";
+    setTimeout(showSlides, 2000); // Change image every 3 seconds
+  }
+  </script>
   <script src="script.js"></script>
 
  

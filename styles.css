@@ -31,7 +31,8 @@ section {
   }
   .header-scroll {
     background-color: #f8f8f8; /* Change to the desired background color on scroll */
-  }
+    z-index: 9999;
+}
   
   button.btn.me-2 {
     background-color: var(--primary-color);
@@ -58,6 +59,10 @@ h2 {
     align-items: center;
 }
 
+/*  */
+.slideshow-container {
+    display: none!important;
+}
 /*  */
 .parent {
     height: 100dvh;

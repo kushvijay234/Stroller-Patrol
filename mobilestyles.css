@@ -109,10 +109,7 @@
 /* Caption text */
 .text {
   color: black;
-  font-size: 15px;
-  /* padding: 12px 12px; */
-  /* position: absolute; */
-  /* bottom: 20px; */
+  font-size: 18px;
   width: 100%;
   text-align: center;
 }

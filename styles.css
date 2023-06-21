@@ -22,7 +22,6 @@ section {
     /* color: var(--primary-color); */
   }
   .header {
-    height:12dvh;
     position: fixed;
     top: 0;
     left: 0;
@@ -132,7 +131,7 @@ p.testimonial-message {
 
 p.testimonial-name {
     font-weight: 700;
-    font-size: 22px;
+    font-size: 18px;
     margin-bottom: 0px;
 }
 .caregivers {

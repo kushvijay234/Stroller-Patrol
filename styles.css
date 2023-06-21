@@ -135,9 +135,11 @@ p.testimonial-name {
     font-size: 22px;
     margin-bottom: 0px;
 }
-
-.FAQ {
+.caregivers {
     background-color: #fdcd70;
+}
+.FAQ {
+    background-color: white;
     padding: 50px 0px;
 }
 
@@ -156,7 +158,9 @@ p.testimonial-name {
 .FAQ .card {
     margin: 0px 0px 20px 0px;
 }
-
+.testimonialbc {
+    background-color: #fdcd70;
+}
 .footer {
     padding: 50px 50px 50px 50px;
 }

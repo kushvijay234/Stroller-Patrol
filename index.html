@@ -82,7 +82,7 @@
   </div>
 
 <!-- For Parents -->
-<h2  style="padding-top: 50px; padding-left: 15px; font-weight: 700;">For Parents</h2>
+<h2  style="padding-top: 50px; padding-left: 15px; font-weight: 700;" class="container">For Parents</h2>
 <div class="container parents">
   <section class="secparents">
     <div class="row secrowparents">
@@ -145,16 +145,83 @@
     <div class="text">Discover new events and activities in your neighborhood.</div>
   </div>
   
-  </div>
-  <br>
-  
+</div>
+
+<br>
+
   <div style="text-align:center; padding-bottom: 50px;">
     <span class="dot"></span> 
     <span class="dot"></span> 
     <span class="dot"></span>
     <span class="dot"></span>  
   </div>
+
+
+<!-- for caregivers -->
+<div class="caregivers">
+<h2  style="padding-top: 50px; padding-left: 15px; font-weight: 700;" class="container">For Caregivers</h2>
+<div class="container parents">
+  <section class="secparents">
+    <div class="row secrowparents">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="assets/c1.png" class="card-img-top" alt="Image 1">
+          <div class="card-body">
+            <p class="card-text">1 Caregiver can connect with multiple families.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="assets/c2.png" class="card-img-top" alt="Image 2">
+          <div class="card-body">
+            <p class="card-text">Caregiver location can helps parents track caregiver.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="assets/c3.png" class="card-img-top" alt="Image 3">
+          <div class="card-body">
+            <p class="card-text">Private messaging to ask questions and get more information about an incident.</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+</div>
+
+<div class="slideshow-container">
+
+  <div class="cSlides fade">
+    <img src="assets/c1.png" style="width:100%">
+    <div class="text">1 Caregiver can connect with multiple families.</div>
+  </div>
   
+  <div class="cSlides fade">
+    <img src="assets/c2.png" style="width:100%">
+    <div class="text">Caregiver location can helps parents track caregiver.</div>
+  </div>
+  
+  <div class="cSlides fade">
+    <img src="assets/c3.png" style="width:100%">
+    <div class="text">Private messaging to ask questions and get more information about an incident.</div>
+  </div>
+
+  
+  
+</div>
+
+<br>
+
+   <div style="text-align:center; padding-bottom: 50px;">
+    <span class="dots"></span> 
+    <span class="dots"></span> 
+    <span class="dots"></span>
+  </div>
+
+</div>
 <!-- FAQ -->
   <div class="FAQ">
     <div class="container">
@@ -241,7 +308,8 @@
 
 
  <!-- Testimonial -->
- <h2 style="padding-top: 50px; padding-left: 15px; font-weight: 700;"> Testimonial</h2>
+ <div class="testimonialbc">
+ <h2 style="padding-top: 50px; padding-left: 15px; font-weight: 700;" class="container"> Testimonial</h2>
 <div class="container testimonial ">
     <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -252,7 +320,7 @@
         </div>
     </div>
 </div>
-
+</div>
 
 
 
@@ -337,7 +405,7 @@
       });
     });
   </script>
-
+<!-- for parent -->
 <script>
   let slideIndex = 0;
   showSlides();
@@ -357,6 +425,28 @@
     slides[slideIndex-1].style.display = "block";  
     dots[slideIndex-1].className += " active1";
     setTimeout(showSlides, 2000); // Change image every 3 seconds
+  }
+  </script>
+<!-- for caregivers -->
+<script>
+  let slideIndexa = 0;
+  showSlidesa();
+  
+  function showSlidesa() {
+    let i;
+    let slides = document.getElementsByClassName("cSlides");
+    let dots = document.getElementsByClassName("dots");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    slideIndexa++;
+    if (slideIndexa > slides.length) {slideIndexa = 1}    
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active1", "");
+    }
+    slides[slideIndexa-1].style.display = "block";  
+    dots[slideIndexa-1].className += " active1";
+    setTimeout(showSlidesa, 2000); // Change image every 3 seconds
   }
   </script>
   <script src="script.js"></script>

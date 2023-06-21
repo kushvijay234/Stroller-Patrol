@@ -163,6 +163,9 @@ p.testimonial-name {
     font-size: 20px;
     font-weight: 700;
     margin: 0px 10px 0px 0px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .FAQ .card {

@@ -1,3 +1,5 @@
+// Header function
+
 $(document).ready(function () {
   $(window).scroll(function () {
     if ($(this).scrollTop() > 0) {
@@ -7,3 +9,5 @@ $(document).ready(function () {
     }
   });
 });
+
+// Silder for Parents

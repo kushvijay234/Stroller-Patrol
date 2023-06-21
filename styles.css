@@ -58,6 +58,16 @@ h2 {
     align-items: center;
 }
 
+/*  */
+.parent {
+    height: 100dvh;
+    width: 100%;
+}
+.carousel-indicators2 {
+    position: static;
+    margin-top: 10px;
+  }
+
 .aboutpatrol p {
     font-weight: 400;
     color: #475569;

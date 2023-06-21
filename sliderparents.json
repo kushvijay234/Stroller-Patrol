@@ -1,0 +1,23 @@
+[
+    {
+      "image": "assets/Messages1.png",
+      "alt": "Image 1",
+      "caption": "Minute to minute updates on your child’s whereabouts and transportation."
+    },
+    {
+      "image": "assets/Create Post2.png",
+      "alt": "Image 2",
+      "caption": "Real-time announcements about potential safety threats."
+    },
+    {
+        "image": "assets/Caregiversstatus3.png",
+        "alt": "Image 3",
+        "caption": "Private messaging to ask questions and get more information about an incident."
+      },
+    {
+      "image": "assets/Parenthome4.png",
+      "alt": "Image 4",
+      "caption": "Discover new events and activities in your neighborhood."
+    }
+  ]
+  

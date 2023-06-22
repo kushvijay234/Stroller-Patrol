@@ -175,6 +175,14 @@ p.testimonial-name {
 .caregivers {
     background-color: #fdcd70;
 }
+.row.secrowparents {
+    margin-left: auto;
+    margin-right: auto;
+    width: 82%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
 .FAQ {
     background-color: white;
     padding: 50px 0px;

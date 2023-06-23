@@ -1,54 +1,65 @@
 /* GLobal  */
-@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
-*  {
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Outfit',sans-serif !important;
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Outfit", sans-serif !important;
 }
-p{
-    color: #666;
+p {
+  color: #666;
 }
 .fixed-button {
-    position: fixed;
+  position: fixed;
     top: 50%;
     right: 0px;
     transform: translateY(-50%);
     z-index: 999;
   }
+  
   .vertical-button {
-    padding: 10px!important;
+  padding: 10px !important;
     width: 40px;
     height: 165px;
     writing-mode: vertical-lr;
     transform: rotate(-180deg);
-    font-weight: 700!important;
-    background-color: var(--primary-color)!important;
-    border: none!important;
-    letter-spacing: 1px!important;
-    font-size: 14px!important;
+  font-weight: 700 !important;
+    background-color: var(--primary-color) !important;
+    border: none !important;
+    letter-spacing: 1px !important;
+    font-size: 14px !important;
   }
 
-  .vertical-button a {
-    text-decoration: none;
-    color: white;
+.vertical-button a {
+  text-decoration: none;
+  color: white;
 }
-.hero{
-    background-image: url(assets/Connect-2.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 80dvh;
-    width: 100%;
+.hero {
+  background-image: url(assets/Connect-2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 80dvh;
+  width: 100%;
+  display: flex;
+  }
+  
+  div#aboutpatrol {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(225 225 224 / 93%);
 }
 
 section {
-    padding: 50px 0px;
+  padding: 50px 0px;
 }
 
 :root {
-    --primary-color: #ff9432; 
+  --primary-color: #ff9432;
     /* color: var(--primary-color); */
   }
+  
   /* .header {
     position: fixed;
     top: 0;
@@ -56,30 +67,28 @@ section {
     width: 100%;
     transition: background-color 0.3s ease;
   } */
-  /* .header-scroll {
+/* .header-scroll {
     background-color: #f8f8f8; 
     z-index: 9999;
-    } */
-  
-  button.btn.me-2 {
-    background-color: var(--primary-color);
-    color: white;
-    font-weight: 500;
-    font-size: 16px;
-    padding: 8px 11px;
+    */ button.btn.me-2 {
+        background-color: var(--primary-color);
+        color: white;
+        font-weight: 500;
+        font-size: 16px;
+        padding: 8px 11px;
 }
-button.btn.me-2  a {
-    text-decoration: none;
-    color: white;
+button.btn.me-2 a {
+  text-decoration: none;
+  color: white;
 }
 
 .dwnbtnrw {
-    display: flex;
+  display: flex;
     justify-content: center;
 }
 
 div#downloadbtn {
-    padding-left: 20px;
+  padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 20px;
@@ -87,101 +96,101 @@ div#downloadbtn {
 
 /*  About Stroller Patrol App  */
 h2 {
-    font-style: normal;
+  font-style: normal;
     font-weight: bolder;
-    font-size: 42px!important;
-    line-height: 47px!important;
+  font-size: 42px !important;
+    line-height: 47px !important;
 }
 
 .row {
-    align-items: center;
+  align-items: center;
 }
 
 /*  */
 .slideshow-container {
-    display: none!important;
+  display: none !important;
 }
 /*  */
 .parent {
-    height: 100dvh;
+  height: 100dvh;
     width: 100%;
 }
 .carousel-indicators2 {
-    position: static;
+  position: static;
     margin-top: 10px;
   }
 
-  .card-text {
-    font-weight: 700;
-  }
+.card-text {
+  font-weight: 700;
+}
 
 .aboutpatrol p {
-    font-weight: 400;
+  font-weight: 400;
     color: #475569;
-    font-size: 28px!important;
-    line-height: 36px!important;
+  font-size: 28px !important;
+    line-height: 36px !important;
 }
 
 .about {
-    background-color: #fdcd70;
+  background-color: #fdcd70;
     padding: 50px 0px;
 }
 
 .appworks h2 {
-    padding: 50px 0px;
+  padding: 50px 0px;
     font-weight: 700;
     text-align: center;
 }
 
 .appworks .step {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
     color: var(--primary-color);
     font-weight: 600;
 }
 
 .appworks h3 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .useyapp {
-    background-color: #fdcd70;
+  background-color: #fdcd70;
     padding: 50px 0px;
 }
 
-.useyapp h2 { 
-    padding: 50px 0px;
-    font-weight: 700;
+.useyapp h2 {
+  padding: 50px 0px;
+  font-weight: 700;
 }
 
 .useyapp .icon {
-    margin: 20px 0px;
+  margin: 20px 0px;
 }
 
 .useyapp h3 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .testimonial {
-    padding: 50px 0px;
+  padding: 50px 0px;
 }
 
 ol.carousel-indicators {
-    display: none;
+  display: none;
 }
 p.testimonial-message {
-    font-size: 44px;
+  font-size: 44px;
 }
 
 p.testimonial-name {
-    font-weight: 700;
+  font-weight: 700;
     font-size: 18px;
     margin-bottom: 0px;
 }
 .caregivers {
-    background-color: #fdcd70;
+  background-color: #fdcd70;
 }
 .row.secrowparents {
-    margin-left: auto;
+  margin-left: auto;
     margin-right: auto;
     width: 82%;
     display: flex;
@@ -189,16 +198,16 @@ p.testimonial-name {
     justify-content: center;
 }
 .FAQ {
-    background-color: white;
+  background-color: white;
     padding: 50px 0px;
 }
 
 .FAQ h2 {
-    font-weight: 700;
+  font-weight: 700;
     padding: 50px 0px;
 }
 .FAQ button.btn.btn-link {
-    text-decoration: none;
+  text-decoration: none;
     color: black;
     font-size: 20px;
     font-weight: 700;
@@ -209,30 +218,31 @@ p.testimonial-name {
 }
 
 .FAQ .card {
-    margin: 0px 0px 20px 0px;
+  margin: 0px 0px 20px 0px;
 }
 .testimonialbc {
-    background-color: #fdcd70;
+  background-color: #fdcd70;
 }
 .footer {
-    padding: 50px 50px 50px 50px;
+  padding: 50px 50px 50px 50px;
 }
 
 .footer .social-icon {
-    display: flex;
+  display: flex;
     justify-content: end;
 }
 
 .row.footer-logo {
-    border-bottom: 2px solid #80808061;
+  border-bottom: 2px solid #80808061;
     padding: 20px 0px;
 }
 
 .footer .footer-copyright {
-    padding: 20px 0px;
+  padding: 20px 0px;
 }
 
 .footer .social-icon a {
-    padding: 0px 10px;
+  padding: 0px 10px;
 }
+
 

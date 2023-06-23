@@ -256,6 +256,11 @@
     .FAQ {
         padding: 50px 15px;
     }
+        .dwntext {
+            font-size: 18px !important;
+            line-height: 1 !important;
+            color: #666;
+        }
  /* for parent */
     .parents {
         display: none!important;
@@ -326,5 +331,18 @@
 } 
 .fade:not(.show) {
     opacity: 1!important;
+}
+div#aboutpatrol {
+    display: flex;
+    padding: 22px;
+}
+
+.row.herotext {
+    background-color: rgb(225 225 224 / 93%);
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    color: black;
 }
 }

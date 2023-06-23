@@ -35,7 +35,7 @@ p {
   color: white;
 }
 .hero {
-  background-image: url(assets/Connect-2.png);
+  background-image: url(assets/banner.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -48,7 +48,7 @@ p {
     display: flex;
     align-content: center;
     flex-wrap: wrap;
-    background-color: rgb(225 225 224 / 93%);
+    background-color: rgb(225 225 224 / 70%);
 }
 
 section {

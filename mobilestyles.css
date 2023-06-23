@@ -181,7 +181,7 @@
     }
 
     .hero {
-        background-image: url(assets/Connect-2.png);
+        background-image: url(assets/banner.jpg);
         height: 55dvh;
     }
     
@@ -338,7 +338,7 @@ div#aboutpatrol {
 }
 
 .row.herotext {
-    padding: 50px;
+    padding: 30px;
     display: flex;
     align-items: center;
     align-content: center;

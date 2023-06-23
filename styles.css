@@ -59,7 +59,12 @@ section {
 /* .header-scroll {
     background-color: #f8f8f8; 
     z-index: 9999;
-    */ button.btn.me-2 {
+    */ p.logotext {
+        margin-top: -13px;
+    
+      }
+    
+      button.btn.me-2 {
         background-color: var(--primary-color);
         color: white;
         font-weight: 500;
@@ -115,9 +120,10 @@ h2 {
 
 .aboutpatrol p {
   font-weight: 400;
-    color: #475569;
+    color: black;
   font-size: 28px !important;
     line-height: 36px !important;
+    font-weight: 700;
 }
 
 .about {

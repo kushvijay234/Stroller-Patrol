@@ -348,7 +348,7 @@ div#aboutpatrol {
     display: flex;
     align-content: center;
     flex-wrap: wrap;
-    background-color: rgb(225 225 224 / 70%);
+    background-color: rgb(253 205 112 / 40%);
 }
 .row.herotext {
     padding: 30px;

@@ -21,7 +21,7 @@ p {
   padding: 10px !important;
     width: 40px;
     height: 165px;
-    writing-mode: tb;
+    
       transform: rotate(-180deg);
       font-weight: 700 !important;
     background-color: var(--primary-color) !important;
@@ -33,6 +33,7 @@ p {
 .vertical-button a {
   text-decoration: none;
   color: white;
+  writing-mode: tb;
 }
 .hero {
   display: none;

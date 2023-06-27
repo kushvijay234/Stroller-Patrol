@@ -348,12 +348,13 @@
         }
     
         .row.herotext {
-    padding: 30px;
+    padding: 15px;
     display: flex;
     align-items: center;
     align-content: center;
     color: black;
-    background-color: rgb(253 205 112 / 66%)
+    background-color: rgb(253 205 112 / 66%);
+        text-align: center;
         }
     
     

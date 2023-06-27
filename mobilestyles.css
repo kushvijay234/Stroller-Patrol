@@ -329,12 +329,8 @@
 .fade:not(.show) {
     opacity: 1!important;
 }
-/* div#aboutpatrol {
-    display: flex;
-    padding: 22px;
-}
 
-*/ .hero {
+ .hero {
     background-image: url(assets/banner.jpg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -350,7 +346,7 @@
     align-content: center;
     flex-wrap: wrap;
     background-color: rgb(253 205 112 / 40%);
-    
+        }
     
         .row.herotext {
     padding: 30px;
@@ -358,6 +354,8 @@
     align-items: center;
     align-content: center;
     color: black;
+    background-color: rgb(253 205 112 / 66%)
+        }
     
     
 }

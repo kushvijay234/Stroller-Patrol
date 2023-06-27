@@ -345,17 +345,19 @@
     height: 55dvh;
 }
 
-div#aboutpatrol {
+        div#aboutpatrol {
     display: flex;
     align-content: center;
     flex-wrap: wrap;
     background-color: rgb(253 205 112 / 40%);
-}
-.row.herotext {
+    
+    
+        .row.herotext {
     padding: 30px;
     display: flex;
     align-items: center;
     align-content: center;
     color: black;
-}
+    
+    
 }

@@ -340,6 +340,9 @@
     display: flex;
     height: 55dvh;
 }
+p.logotext {
+    text-align: center;
+}
 
         div#aboutpatrol {
     display: flex;
@@ -353,7 +356,7 @@
     align-items: center;
     align-content: center;
     color: black;
-    background-color: rgb(253 205 112 / 66%);
+    background-color: rgb(214 238 255 / 75%);
         text-align: center;
         }
     

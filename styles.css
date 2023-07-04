@@ -208,12 +208,14 @@ p.testimonial-name {
 .FAQ button.btn.btn-link {
   text-decoration: none;
   color: black;
-    font-size: 20px;
+  font-size: 20px;
     font-weight: 700;
     margin: 0px 10px 0px 0px;
     display: flex;
     width: 100%;
     justify-content: space-between;
+  align-items: center;
+    text-align: left;
 }
 
 .FAQ .card {

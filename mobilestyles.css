@@ -360,5 +360,15 @@ p.logotext {
         text-align: center;
         }
     
-    
+                  #popup {
+                      max-width: 90%;
+                      left: 0%;
+                      margin: 5%;
+                      padding: 4%;
+                      top: 15%;
+                  }
+        
+                  form#mc-embedded-subscribe-form {
+                      margin: 1% !important;
+                  }
 }

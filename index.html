@@ -17,8 +17,8 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
 
-    
-
+    <!--  -->
+   
   </head>
 <body>
 
@@ -389,6 +389,40 @@
 </div>
 </div>
 
+<!-- NewsLetter -->
+<div id="popupContainer">
+  <div id="popup">
+    <div class="popup-col-1">
+      <img src="assets/banner.jpg" alt="Image" width="100%">
+    </div>
+    <div class="popup-col-2">
+      <span class="close" onclick="closePopup()">&times;</span>
+    <h3>Subscribe to our Newsletter</h3>
+    <!-- Form  -->
+    <div id="mc_embed_shell">
+      <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+  </style>
+  <div id="mc_embed_signup">
+    <form action="https://strollerpatrol.us4.list-manage.com/subscribe/post?u=8affd4df3c34afe5393fd49ef&amp;id=0c5abe49bb&amp;f_id=00dd2ce9f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+        <div id="mc_embed_signup_scroll">
+            <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+            <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></div><div class="mc-field-group input-group"><strong>Choose </strong><ul><li><input type="radio" name="MMERGE8" id="mce-MMERGE80" value="Parent"><label for="mce-MMERGE80">Parent</label></li><li><input type="radio" name="MMERGE8" id="mce-MMERGE81" value="Nanny"><label for="mce-MMERGE81">Nanny</label></li></ul></div>
+          <div id="mce-responses" class="clear">
+            <div class="response" id="mce-error-response" style="display: none;"></div>
+            <div class="response" id="mce-success-response" style="display: none;"></div>
+          </div><div aria-hidden="true" style="position: absolute; left: -5000px;"><input type="text" name="b_8affd4df3c34afe5393fd49ef_0c5abe49bb" tabindex="-1" value=""></div><div class="clear"><input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe"></div>
+        </div>
+    </form>
+    </div>
+    
+</div>
+<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[8]='MMERGE8';ftypes[8]='radio';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';fnames[6]='MMERGE6';ftypes[6]='text';fnames[7]='MMERGE7';ftypes[7]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script></div>
+
+    <!-- Form End -->
+  </div>
+</div>
+
+
 
 
 <!-- footer -->
@@ -515,6 +549,8 @@
     dots[slideIndexa-1].className += " active1";
     setTimeout(showSlidesa, 5000); // Change image every 3 seconds
   }
+
+
   </script>
   <script src="script.js"></script>
 

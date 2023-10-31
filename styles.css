@@ -303,5 +303,13 @@ input#mc-embedded-subscribe {
 
 .popup-col-2 {
   width: 50%;
-  padding: 2%;
+  padding: 0% 2%;
+  }
+  
+  #mc_embed_signup form {
+    margin: 0px !important;
+  }
+  
+  #mc_embed_signup .mc-field-group.input-group label {
+    padding-left: 1%;
 }

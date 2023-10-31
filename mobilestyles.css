@@ -365,10 +365,19 @@ p.logotext {
                       left: 0%;
                       margin: 5%;
                       padding: 4%;
-                      top: 15%;
+                    top: 0%;
+                        flex-direction: column-reverse;
                   }
         
                   form#mc-embedded-subscribe-form {
                       margin: 1% !important;
                   }
+                                                                                                                                                                                                                                                                  .popup-col-1 {
+                                                                                                                                                                                                                                                                      width: 100%;
+                                                                                                                                                                                                                                                                      display: none;
+                                                                                                                                                                                                                                                                  }
+                                                                                                                                
+                                                                                                                                                                                                                                                                  .popup-col-2 {
+                                                                                                                                                                                                                                                                      width: 100%;
+                                                                                                                                                                                                                                                                  }
 }

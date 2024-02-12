@@ -258,6 +258,13 @@ p.testimonial-name {
     height: 100%; */
 }
 
+.indicates-required {
+  display: none;
+}
+
+span.asterisk {
+  display: none;
+}
 #popup {
   background: #d6eeff;
   padding: 20px;
